@@ -5,4 +5,13 @@
 TestFiles <- list.files(path="~/Desktop/TestFile", pattern="*.xlsx", full.names=TRUE, recursive=FALSE)
 
 
-lapply(files, function(x)
+#Define the function to find coefficient of variation
+
+TestFilesFunction <- function(x){
+  SumFiles <- mean(x)
+  StandardDeviationFiles <- sd(x)
+  CoefficientVarianceFiles <- StandardDeviationFiles/SumFiles
+  return(CoefficientVarianceFiles)
+}
+
+  
