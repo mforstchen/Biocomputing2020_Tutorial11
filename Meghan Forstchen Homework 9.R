@@ -1,5 +1,9 @@
 
-(((This ended up being spread over several functions because I couldn't get it to run in one and it is not fully functional :(  )))
+#(((This ended up being spread over several functions because I couldn't get it to run in one and it is not fully functional :(  )))
+#Ideally it would have been in one function with the arguments "dir" for the user specified directory, "Column" = user specified column, and 
+#a Error Message either being True/False that could be changed to give an error or warning. 
+
+
 #Homework 9 Assignment
 
 #Make a custom function that reads the contents of a directory
